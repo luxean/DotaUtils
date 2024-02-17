@@ -1,0 +1,280 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\1.png" />
+    <None Remove="Images\10.png" />
+    <None Remove="Images\100.png" />
+    <None Remove="Images\101.png" />
+    <None Remove="Images\102.png" />
+    <None Remove="Images\103.png" />
+    <None Remove="Images\104.png" />
+    <None Remove="Images\105.png" />
+    <None Remove="Images\106.png" />
+    <None Remove="Images\107.png" />
+    <None Remove="Images\108.png" />
+    <None Remove="Images\109.png" />
+    <None Remove="Images\11.png" />
+    <None Remove="Images\110.png" />
+    <None Remove="Images\111.png" />
+    <None Remove="Images\112.png" />
+    <None Remove="Images\113.png" />
+    <None Remove="Images\114.png" />
+    <None Remove="Images\119.png" />
+    <None Remove="Images\12.png" />
+    <None Remove="Images\120.png" />
+    <None Remove="Images\121.png" />
+    <None Remove="Images\123.png" />
+    <None Remove="Images\126.png" />
+    <None Remove="Images\128.png" />
+    <None Remove="Images\129.png" />
+    <None Remove="Images\13.png" />
+    <None Remove="Images\135.png" />
+    <None Remove="Images\14.png" />
+    <None Remove="Images\15.png" />
+    <None Remove="Images\16.png" />
+    <None Remove="Images\17.png" />
+    <None Remove="Images\18.png" />
+    <None Remove="Images\19.png" />
+    <None Remove="Images\2.png" />
+    <None Remove="Images\20.png" />
+    <None Remove="Images\21.png" />
+    <None Remove="Images\22.png" />
+    <None Remove="Images\23.png" />
+    <None Remove="Images\25.png" />
+    <None Remove="Images\26.png" />
+    <None Remove="Images\27.png" />
+    <None Remove="Images\28.png" />
+    <None Remove="Images\29.png" />
+    <None Remove="Images\3.png" />
+    <None Remove="Images\30.png" />
+    <None Remove="Images\31.png" />
+    <None Remove="Images\32.png" />
+    <None Remove="Images\33.png" />
+    <None Remove="Images\34.png" />
+    <None Remove="Images\35.png" />
+    <None Remove="Images\36.png" />
+    <None Remove="Images\37.png" />
+    <None Remove="Images\38.png" />
+    <None Remove="Images\39.png" />
+    <None Remove="Images\4.png" />
+    <None Remove="Images\40.png" />
+    <None Remove="Images\41.png" />
+    <None Remove="Images\42.png" />
+    <None Remove="Images\43.png" />
+    <None Remove="Images\44.png" />
+    <None Remove="Images\45.png" />
+    <None Remove="Images\46.png" />
+    <None Remove="Images\47.png" />
+    <None Remove="Images\48.png" />
+    <None Remove="Images\49.png" />
+    <None Remove="Images\5.png" />
+    <None Remove="Images\50.png" />
+    <None Remove="Images\51.png" />
+    <None Remove="Images\52.png" />
+    <None Remove="Images\53.png" />
+    <None Remove="Images\54.png" />
+    <None Remove="Images\55.png" />
+    <None Remove="Images\56.png" />
+    <None Remove="Images\57.png" />
+    <None Remove="Images\58.png" />
+    <None Remove="Images\59.png" />
+    <None Remove="Images\6.png" />
+    <None Remove="Images\60.png" />
+    <None Remove="Images\61.png" />
+    <None Remove="Images\62.png" />
+    <None Remove="Images\63.png" />
+    <None Remove="Images\64.png" />
+    <None Remove="Images\65.png" />
+    <None Remove="Images\66.png" />
+    <None Remove="Images\67.png" />
+    <None Remove="Images\68.png" />
+    <None Remove="Images\69.png" />
+    <None Remove="Images\7.png" />
+    <None Remove="Images\70.png" />
+    <None Remove="Images\71.png" />
+    <None Remove="Images\72.png" />
+    <None Remove="Images\73.png" />
+    <None Remove="Images\74.png" />
+    <None Remove="Images\75.png" />
+    <None Remove="Images\76.png" />
+    <None Remove="Images\77.png" />
+    <None Remove="Images\78.png" />
+    <None Remove="Images\79.png" />
+    <None Remove="Images\8.png" />
+    <None Remove="Images\80.png" />
+    <None Remove="Images\81.png" />
+    <None Remove="Images\82.png" />
+    <None Remove="Images\83.png" />
+    <None Remove="Images\84.png" />
+    <None Remove="Images\85.png" />
+    <None Remove="Images\86.png" />
+    <None Remove="Images\87.png" />
+    <None Remove="Images\88.png" />
+    <None Remove="Images\89.png" />
+    <None Remove="Images\9.png" />
+    <None Remove="Images\90.png" />
+    <None Remove="Images\91.png" />
+    <None Remove="Images\92.png" />
+    <None Remove="Images\93.png" />
+    <None Remove="Images\94.png" />
+    <None Remove="Images\95.png" />
+    <None Remove="Images\96.png" />
+    <None Remove="Images\97.png" />
+    <None Remove="Images\98.png" />
+    <None Remove="Images\99.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotaUtils\DotaUtils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\1.png" />
+    <Resource Include="Images\10.png" />
+    <Resource Include="Images\100.png" />
+    <Resource Include="Images\101.png" />
+    <Resource Include="Images\102.png" />
+    <Resource Include="Images\103.png" />
+    <Resource Include="Images\104.png" />
+    <Resource Include="Images\105.png" />
+    <Resource Include="Images\106.png" />
+    <Resource Include="Images\107.png" />
+    <Resource Include="Images\108.png" />
+    <Resource Include="Images\109.png" />
+    <Resource Include="Images\11.png" />
+    <Resource Include="Images\110.png" />
+    <Resource Include="Images\111.png" />
+    <Resource Include="Images\112.png" />
+    <Resource Include="Images\113.png" />
+    <Resource Include="Images\114.png" />
+    <Resource Include="Images\119.png" />
+    <Resource Include="Images\12.png" />
+    <Resource Include="Images\120.png" />
+    <Resource Include="Images\121.png" />
+    <Resource Include="Images\123.png" />
+    <Resource Include="Images\126.png" />
+    <Resource Include="Images\128.png" />
+    <Resource Include="Images\129.png" />
+    <Resource Include="Images\13.png" />
+    <Resource Include="Images\135.png" />
+    <Resource Include="Images\14.png" />
+    <Resource Include="Images\15.png" />
+    <Resource Include="Images\16.png" />
+    <Resource Include="Images\17.png" />
+    <Resource Include="Images\18.png" />
+    <Resource Include="Images\19.png" />
+    <Resource Include="Images\2.png" />
+    <Resource Include="Images\20.png" />
+    <Resource Include="Images\21.png" />
+    <Resource Include="Images\22.png" />
+    <Resource Include="Images\23.png" />
+    <Resource Include="Images\25.png" />
+    <Resource Include="Images\26.png" />
+    <Resource Include="Images\27.png" />
+    <Resource Include="Images\28.png" />
+    <Resource Include="Images\29.png" />
+    <Resource Include="Images\3.png" />
+    <Resource Include="Images\30.png" />
+    <Resource Include="Images\31.png" />
+    <Resource Include="Images\32.png" />
+    <Resource Include="Images\33.png" />
+    <Resource Include="Images\34.png" />
+    <Resource Include="Images\35.png" />
+    <Resource Include="Images\36.png" />
+    <Resource Include="Images\37.png" />
+    <Resource Include="Images\38.png" />
+    <Resource Include="Images\39.png" />
+    <Resource Include="Images\4.png" />
+    <Resource Include="Images\40.png" />
+    <Resource Include="Images\41.png" />
+    <Resource Include="Images\42.png" />
+    <Resource Include="Images\43.png" />
+    <Resource Include="Images\44.png" />
+    <Resource Include="Images\45.png" />
+    <Resource Include="Images\46.png" />
+    <Resource Include="Images\47.png" />
+    <Resource Include="Images\48.png" />
+    <Resource Include="Images\49.png" />
+    <Resource Include="Images\5.png" />
+    <Resource Include="Images\50.png" />
+    <Resource Include="Images\51.png" />
+    <Resource Include="Images\52.png" />
+    <Resource Include="Images\53.png" />
+    <Resource Include="Images\54.png" />
+    <Resource Include="Images\55.png" />
+    <Resource Include="Images\56.png" />
+    <Resource Include="Images\57.png" />
+    <Resource Include="Images\58.png" />
+    <Resource Include="Images\59.png" />
+    <Resource Include="Images\6.png" />
+    <Resource Include="Images\60.png" />
+    <Resource Include="Images\61.png" />
+    <Resource Include="Images\62.png" />
+    <Resource Include="Images\63.png" />
+    <Resource Include="Images\64.png" />
+    <Resource Include="Images\65.png" />
+    <Resource Include="Images\66.png" />
+    <Resource Include="Images\67.png" />
+    <Resource Include="Images\68.png" />
+    <Resource Include="Images\69.png" />
+    <Resource Include="Images\7.png" />
+    <Resource Include="Images\70.png" />
+    <Resource Include="Images\71.png" />
+    <Resource Include="Images\72.png" />
+    <Resource Include="Images\73.png" />
+    <Resource Include="Images\74.png" />
+    <Resource Include="Images\75.png" />
+    <Resource Include="Images\76.png" />
+    <Resource Include="Images\77.png" />
+    <Resource Include="Images\78.png" />
+    <Resource Include="Images\79.png" />
+    <Resource Include="Images\8.png" />
+    <Resource Include="Images\80.png" />
+    <Resource Include="Images\81.png" />
+    <Resource Include="Images\82.png" />
+    <Resource Include="Images\83.png" />
+    <Resource Include="Images\84.png" />
+    <Resource Include="Images\85.png" />
+    <Resource Include="Images\86.png" />
+    <Resource Include="Images\87.png" />
+    <Resource Include="Images\88.png" />
+    <Resource Include="Images\89.png" />
+    <Resource Include="Images\9.png" />
+    <Resource Include="Images\90.png" />
+    <Resource Include="Images\91.png" />
+    <Resource Include="Images\92.png" />
+    <Resource Include="Images\93.png" />
+    <Resource Include="Images\94.png" />
+    <Resource Include="Images\95.png" />
+    <Resource Include="Images\96.png" />
+    <Resource Include="Images\97.png" />
+    <Resource Include="Images\98.png" />
+    <Resource Include="Images\99.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Jsons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UserSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UserSettings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UserSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UserSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
